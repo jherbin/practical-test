@@ -34,3 +34,8 @@ body {
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
+
+.arrow {
+  font-size: 100px;
+  margin: auto;
+}
