@@ -1,0 +1,5 @@
+node_modules/
+hint-report/
+
+# Mac Files
+**/.DS_Store

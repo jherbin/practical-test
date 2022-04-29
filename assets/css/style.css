@@ -1,0 +1,36 @@
+.app-view {
+  height: 100vh;
+  display: flex; /* .header | .breadcrumbs | .svg-box */
+  flex-direction: column;
+  margin: 0 2rem 0 2rem;
+}
+
+.app-view .svg-box {
+  flex: 1;
+  overflow: auto;
+  min-height: 75vh;
+  max-height: 85vh;
+  min-width: 50vw;
+  border-radius: 12px;
+  background-color: #fff;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+}
+
+.container-3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-height: calc(100vh - 170px);
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}

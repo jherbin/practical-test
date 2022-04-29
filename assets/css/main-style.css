@@ -1,0 +1,25 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Calibri", sans-serif;
+  box-sizing: border-box;
+}
+
+a {
+  outline: none;
+  border-radius: 8px;
+  display: block;
+  padding: 10px; /* some HitBox space */
+  transition: size 0.2s ease-in-out;
+}
+
+h1 {
+  color: #172b4d;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: 700;
+}

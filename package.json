@@ -1,0 +1,38 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "Sample Practical Test Project",
+  "scripts": {
+    "test": "jest",
+    "lint": "npx hint . && npx stylelint \"**/*.{css,scss}\"",
+    "push": "npm t && echo 'Pushing to github...' && git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/razvanso/practical-test.git"
+  },
+  "keywords": [
+    ""
+  ],
+  "author": "Rio",
+  "license": "Proprietary",
+  "bugs": {
+    "url": "https://github.com/razvanso/practical-test/issues"
+  },
+  "devDependencies": {
+    "hint": "^6.1.9",
+    "jest": "^27.5.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "svgo": "^2.8.0"
+  },
+  "jest": {
+    "verbose": true,
+    "modulePathIgnorePatterns": [
+      "node_modules"
+    ]
+  },
+  "dependencies": {}
+}
